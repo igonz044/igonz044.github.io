@@ -19,7 +19,7 @@ h3{
 	height: 50px;
 	width: 50px;
 	font: 40px;
-	border-radius: 50% ;
+	border-radius: 50%;
 	background-color: #333;
 	color: #fff;
 }
@@ -27,6 +27,16 @@ h3{
 	background-color: #fff ;
 	color: #604848;
 }
+
+.goodreadslogo {
+	height: 45px;
+	width: 45px;
+}
+.goodreadslogo:hover{
+	background-color: #fff ;
+	color: #604848;
+}
+
 
 /*Header*/
 
@@ -81,7 +91,7 @@ header li{
 	text-align: center ;
 	background-color: #fff ;
 	height: 10vh ;
-	
+
 }
 
 #profile img{
@@ -140,7 +150,7 @@ header li{
 	grid-gap: 20px;
 	align-content: center ;
 	grid-template-columns: 1fr 2fr ;
-	grid-template-areas: 
+	grid-template-areas:
 		"graphic content"
 		;
 }
@@ -161,7 +171,7 @@ header li{
 	grid-gap: 20px;
 	align-content: center ;
 	grid-template-columns: 2fr 1fr ;
-	grid-template-areas: 
+	grid-template-areas:
 		"content graphic"
 		;
 }
@@ -182,7 +192,7 @@ header li{
 	grid-gap: 20px;
 	align-content: center ;
 	grid-template-columns: 1fr 2fr ;
-	grid-template-areas: 
+	grid-template-areas:
 		"graphic content"
 		;
 }
@@ -288,7 +298,7 @@ header li{
 	}
 
 	#profile{
-		display: none ;	
+		display: none ;
 	}
 	header{
 		grid-area: header;
