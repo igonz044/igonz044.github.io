@@ -8,19 +8,16 @@
 body {
     padding-top: 120px;
 }
-
 h1 {
   margin-bottom: 16px;
   font-size: 5vw; 
   font-weight: 500; 
 }
-
 h2 {
     margin-bottom: 160px; 
     font-size: 3vw; 
     color: #3970FF;
 }
-
 .fa {
     margin-bottom: 64px;
     margin-right: 24px; 
@@ -32,7 +29,6 @@ h2 {
     color: gray;
 }
 .tab {
-    display: inline-block;
     margin-right: 32px; 
     font-size: 3vw;
     text-decoration: none;
@@ -41,10 +37,24 @@ h2 {
     border-width: 2px;
     border-style: solid;
     border-color: white;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .tab:hover {
     border-color: #383838;
-    
-    
 }
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 20px;
+        margin-bottom: 100px;
+    }
+    .tab {
+        display: flex;
+        flex-direction: column;
+        max-width: fit-content;
+        margin: 0 auto 8px auto;
+    }
+  }
