@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Avenir", Roboto;
+    color: #383838
+}
+body {
+    padding-top: 120px;
+}
+
+h1 {
+  margin-bottom: 16px;
+  font-size: 5vw; 
+  font-weight: 500; 
+}
+
+h2 {
+    margin-bottom: 160px; 
+    font-size: 3vw; 
+    color: #3970FF;
+}
+
+.fa {
+    margin-bottom: 64px;
+    margin-right: 16px; 
+    font-size: 3vw;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+.fa:hover {
+    color: gray;
+}
+a {
+    margin-right: 40px; 
+    font-size: 3vw;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+a:hover {
+    color: #3970FF;
+}
