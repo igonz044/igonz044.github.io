@@ -23,20 +23,28 @@ h2 {
 
 .fa {
     margin-bottom: 64px;
-    margin-right: 16px; 
-    font-size: 3vw;
+    margin-right: 24px; 
+    font-size: 40px;
     cursor: pointer;
     transition: color 0.5s;
 }
 .fa:hover {
     color: gray;
 }
-a {
-    margin-right: 40px; 
+.tab {
+    display: inline-block;
+    margin-right: 32px; 
     font-size: 3vw;
     text-decoration: none;
-    transition: color 0.5s;
+    border-radius: 16px;
+    padding: 4px 12px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    transition: 0.5s;
 }
-a:hover {
-    color: #3970FF;
+.tab:hover {
+    border-color: #383838;
+    
+    
 }
