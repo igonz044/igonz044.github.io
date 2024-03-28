@@ -6,7 +6,7 @@
     color: #383838
 }
 body {
-    padding-top: 120px;
+    padding-top: 96px;
 }
 h1 {
   margin-bottom: 16px;
@@ -14,21 +14,21 @@ h1 {
   font-weight: 500; 
 }
 h2 {
-    margin-bottom: 160px; 
+    margin-bottom: 112px; 
     font-size: 3vw; 
-    color: #3970FF;
+    color: #1b6095;
 }
 .fa {
     margin-bottom: 64px;
     margin-right: 24px; 
-    font-size: 40px;
+    font-size: 48px;
     cursor: pointer;
     transition: color 0.5s;
 }
 .fa:hover {
-    color: gray;
+    color: #a9d4f5;
 }
-.tab {
+.tabs {
     margin-right: 32px; 
     font-size: 3vw;
     text-decoration: none;
@@ -39,10 +39,15 @@ h2 {
     border-color: white;
     transition: 0.3s;
 }
-.tab:hover {
-    border-color: #383838;
+.tabs:hover {
+    border-color: #a9d4f5;
+    color: #a9d4f5;
 }
-
+.quote {
+    color: #a9d4f5;
+    margin-top: 80px;
+    font-size: 1.5vw;
+}
 @media screen and (max-width: 500px) {
     h1 {
         font-size: 40px;
@@ -51,10 +56,17 @@ h2 {
         font-size: 20px;
         margin-bottom: 100px;
     }
-    .tab {
+    .fa {
+        font-size: 40px;
+    }
+    .tabs {
         display: flex;
         flex-direction: column;
         max-width: fit-content;
         margin: 0 auto 8px auto;
+    }
+    .quote {
+        font-size: 12px;
+        margin-top: 96px;
     }
   }
