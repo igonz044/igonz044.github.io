@@ -83,6 +83,10 @@ a {
 }
 
 @media screen and (max-width: 1000px) {
+    .fas {
+        margin-left: 100px;
+        font-size: 22px; 
+    }
     .project {
         display: flex;
         flex-direction: column;
@@ -93,6 +97,6 @@ a {
         width: 100%;
     }
     .visual {
-        margin-right: 80px;
+
     }
   }
