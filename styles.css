@@ -16,7 +16,7 @@ h1 {
 h2 {
     margin-bottom: 112px; 
     font-size: 3vw; 
-    color: #1b6095;
+    color: #3970FF;
 }
 .fa {
     margin-bottom: 64px;
@@ -26,11 +26,10 @@ h2 {
     transition: color 0.5s;
 }
 .fa:hover {
-    color: #a9d4f5;
+    color: #9499a4;
 }
 .tabs {
-    margin-right: 32px; 
-    font-size: 3vw;
+    font-size: 32px;
     text-decoration: none;
     border-radius: 16px;
     padding: 4px 12px;
@@ -40,14 +39,14 @@ h2 {
     transition: 0.3s;
 }
 .tabs:hover {
-    border-color: #a9d4f5;
-    color: #a9d4f5;
+    border-color: #383838;
+    color: #383838;
 }
-.quote {
+/* .quote {
     color: #a9d4f5;
     margin-top: 80px;
     font-size: 1.5vw;
-}
+} */
 @media screen and (max-width: 500px) {
     h1 {
         font-size: 40px;
@@ -60,13 +59,14 @@ h2 {
         font-size: 40px;
     }
     .tabs {
+        font-size: 20px;
         display: flex;
         flex-direction: column;
         max-width: fit-content;
         margin: 0 auto 8px auto;
     }
-    .quote {
+    /* .quote {
         font-size: 12px;
         margin-top: 96px;
-    }
+    } */
   }
