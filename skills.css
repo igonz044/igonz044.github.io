@@ -3,6 +3,10 @@
     font-family: Avenir;
     color: #383838;
     background-color: rgb(246, 239, 236);
+    
+}
+body {
+    padding-bottom: 200px;
 }
 .fas {
     margin-top: 64px;
@@ -34,6 +38,9 @@
 }
 .email {
     margin-top: -16px;
+}
+.skill-list{
+    margin-top: -10px;
 }
 @media screen and (max-width: 1000px) {
     .fas {

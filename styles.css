@@ -3,7 +3,8 @@
     text-align: center;
     vertical-align: middle;
     font-family: "Avenir", Roboto;
-    color: #383838
+    color: #383838;
+    background-color: rgb(246, 239, 236);
 }
 body {
     padding-top: 96px;
@@ -35,7 +36,7 @@ h2 {
     padding: 4px 12px;
     border-width: 2px;
     border-style: solid;
-    border-color: white;
+    border-color: rgb(246, 239, 236);
     transition: 0.3s;
 }
 .tabs:hover {
