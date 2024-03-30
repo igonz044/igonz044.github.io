@@ -15,7 +15,7 @@ body {
     padding: 6px 8px;
     border-width: 2px;
     border-style: solid;
-    border-color: white;
+    border-color: rgb(0,0,0,0);
     transition: 0.3s;
 }
 .fas:hover {
@@ -107,7 +107,7 @@ a {
         background-color: rgb(246, 239, 236);
     }
     li {
-        padding-right: 32px;
+        padding-right: 18px;
     }
     .aboutjpeg {
         width: 250px;
@@ -136,7 +136,7 @@ a {
 .about-title {
     font-size: 18px;
     font-weight: 400;
-
+    height: 8px;
     color: #3b3b3b;
 }
 .fun-facts {
@@ -152,7 +152,6 @@ li {
     color: #3b3b3b;
     margin-bottom: 16px;
     margin-left: -24px;
-    
 }
 .about-img {
     margin: 0px 0px 0px -32px;

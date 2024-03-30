@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    font-family: Avenir;
+    color: #383838;
+}
+.fas {
+    margin-top: 64px;
+    margin-left: 164px; 
+    color: #383838;
+    font-size: 3vw;
+    border-radius: 100%;
+    padding: 6px 8px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0,0,0,0);
+    transition: 0.3s;
+}
+.fas:hover {
+    border-color: #9499a4;
+    color: #9499a4;
+}
+.contact-container {
+    max-width: 653px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+@media screen and (max-width: 1000px) {
+    .fas {
+        margin-left: 80px;
+        font-size: 22px;    
+    }
+    .contact-container {
+        margin-top: 40px;
+        max-width: 353px;
+    }
+}
