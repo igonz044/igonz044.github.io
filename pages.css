@@ -3,6 +3,9 @@
     font-family: Avenir;
     color: #383838;
 }
+.project-body {
+    background-color: rgb(246, 239, 236);
+}
 body {
     padding-bottom: 128px;
 }
@@ -36,7 +39,6 @@ h2 {
     /* background-color: #ecedef; */
     padding: 40px;
     box-shadow: inset;
-    background-color: rgb(246, 239, 236);
 }
 .project {
     display: flex;
