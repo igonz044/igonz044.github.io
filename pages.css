@@ -81,6 +81,7 @@ a {
 }
 .view-website, i {
     margin-left: 16px;
+    color: #3970FF;
 }
 .view-website:hover {
     text-decoration: underline;
