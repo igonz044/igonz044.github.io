@@ -66,6 +66,7 @@ h3, p {
     border: none;
     border-radius: 3px;
     color: #383838;
+    margin-left: 1px;
 }
 a {
     text-decoration: none;
